@@ -1,10 +1,13 @@
 
-console.log(`Hello`);
-console.log(`I like pizza`);
+let age = 25;
+let price = 10.99;
+let gpa = 2.1;
 
-window.alert(`This is an alert!`);
-window.alert(`I like pizza!`);
+console.log(typeof gpa);
+console.log(`Ýou are ${age} years old`);
+console.log(`The price is $${price}`);
+console.log(`Your gpa is: ${gpa}`);
 
-document.getElementById("myH1").textContent = `Hello`;
-document.getElementById("myP").textContent = `Hello`;
+
+
 
