@@ -8,6 +8,16 @@
  //students = students **3;
 //let extraStudents = students %3;
 
+//students += 1;
+//students -= 1;
+//students *= 2;
+//students /= 2;
+//students **= 2;
+//students %= 2;
+
+//students++;
+//students--;
+
  console.log(students);
 
 
