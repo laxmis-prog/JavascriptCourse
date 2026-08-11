@@ -1,11 +1,14 @@
 
- let fullName = "sanu rani";
- let age = 22;
- let student = true;
+ let students = 30;
 
- document.getElementById("p1").textContent = `Your name is ${fullName}`;
- document.getElementById("p2").textContent = `You are ${age} years old`;
- document.getElementById("p3").textContent = `Enrolled: ${student}`;
+ //students = students + 1;
+ //students = students - 1;
+ //students = students * 2;
+ //students = students / 2;
+ //students = students **3;
+//let extraStudents = students %3;
+
+ console.log(students);
 
 
 
