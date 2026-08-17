@@ -1,28 +1,9 @@
 
- let students = 30;
+ let username;
 
- //students = students + 1;
- //students = students - 1;
- //students = students * 2;
- //students = students / 2;
- //students = students **3;
-//let extraStudents = students %3;
+ username = window.prompt("What's your name?");
 
-//students += 1;
-//students -= 1;
-//students *= 2;
-//students /= 2;
-//students **= 2;
-//students %= 2;
-
-//students++;
-//students--;
-
-
-let result = 6 / 2 ** (2 + 5);
-
-console.log(result);
-
+ console.log(username);
 
 
 
