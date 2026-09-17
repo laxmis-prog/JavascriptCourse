@@ -1,9 +1,7 @@
 
-let x = 1;
-let y = 2;
-let z = 3;
+const min = 50;
+const max = 100;
 
-let max = Math.max(x,y,z);
-let min = Math.min(x,y,z);
+let randomNum = Math.floor( Math.random() *(max -min)) + min;
 
-console.log(min);
+console.log(randomNum);
