@@ -1,7 +1,20 @@
+const myText = document.getElementById("myText");
+const mySubmit = document.getElementById("mySubmit");
+const resultElement = document.getElementById("resultElement");
+let age;
 
-const min = 50;
-const max = 100;
-
-let randomNum = Math.floor( Math.random() *(max -min)) + min;
-
-console.log(randomNum);
+mySubmit.onclick = function () {
+  age = myText.value;
+  age = Number(age);
+  if (age >= 100) {
+    resultElement.textContent = `you are TOO OLD to enter this site`;
+  } else if (age == 0) {
+    resultElement.textContent = `You can't enter. You are just born.`;
+  } else if (age >= 18) {
+    resultElement.textContent = `you are old enough to enter this site`;
+  } else if (age < 0) {
+    resultElement.textContent = `your age can't be below 0`;
+  } else {
+    resultElement.textContent = `you must be 18+ to enter this site`;
+  }
+};
